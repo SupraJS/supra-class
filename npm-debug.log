@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/guilhermsouza/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz
+12 verbose folder .
+13 info prepublish supra-class@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/guilhermsouza/.npm/1f1177db-tar.lock
+16 silly lockFile 36fe4680-444085-0-318149880040437-tmp-tgz tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz
+17 verbose lock tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz /Users/guilhermsouza/.npm/36fe4680-444085-0-318149880040437-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 36fe4680-444085-0-318149880040437-tmp-tgz tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz
+21 silly lockFile 36fe4680-444085-0-318149880040437-tmp-tgz tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz
+22 verbose tar unpack /var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz
+23 silly lockFile 4b39f4f8-444085-0-318149880040437-package tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package
+24 verbose lock tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package /Users/guilhermsouza/.npm/4b39f4f8-444085-0-318149880040437-package.lock
+25 silly lockFile 36fe4680-444085-0-318149880040437-tmp-tgz tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz
+26 verbose lock tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz /Users/guilhermsouza/.npm/36fe4680-444085-0-318149880040437-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry index.js
+30 silly lockFile 4b39f4f8-444085-0-318149880040437-package tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package
+31 silly lockFile 4b39f4f8-444085-0-318149880040437-package tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package
+32 silly lockFile 36fe4680-444085-0-318149880040437-tmp-tgz tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz
+33 silly lockFile 36fe4680-444085-0-318149880040437-tmp-tgz tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/tmp.tgz
+34 verbose tar pack [ '/Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz',
+34 verbose tar pack   '/var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package' ]
+35 verbose tarball /Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz
+36 verbose folder /var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package
+37 silly lockFile 4b39f4f8-444085-0-318149880040437-package tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package
+38 verbose lock tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package /Users/guilhermsouza/.npm/4b39f4f8-444085-0-318149880040437-package.lock
+39 silly lockFile 3b5f19f2-pm-supra-class-0-0-1-package-tgz tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz
+40 verbose lock tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz /Users/guilhermsouza/.npm/3b5f19f2-pm-supra-class-0-0-1-package-tgz.lock
+41 silly lockFile 4b39f4f8-444085-0-318149880040437-package tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package
+42 silly lockFile 4b39f4f8-444085-0-318149880040437-package tar:///var/folders/70/0jtrhc7d31l3fvd70cnng9cm0000gn/T/npm-93667-NUzTkko5/1413407444085-0.318149880040437/package
+43 silly lockFile 3b5f19f2-pm-supra-class-0-0-1-package-tgz tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz
+44 silly lockFile 3b5f19f2-pm-supra-class-0-0-1-package-tgz tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz
+45 silly lockFile fbf8e3be-za-npm-supra-class-0-0-1-package /Users/guilhermsouza/.npm/supra-class/0.0.1/package
+46 verbose lock /Users/guilhermsouza/.npm/supra-class/0.0.1/package /Users/guilhermsouza/.npm/fbf8e3be-za-npm-supra-class-0-0-1-package.lock
+47 silly lockFile fbf8e3be-za-npm-supra-class-0-0-1-package /Users/guilhermsouza/.npm/supra-class/0.0.1/package
+48 silly lockFile fbf8e3be-za-npm-supra-class-0-0-1-package /Users/guilhermsouza/.npm/supra-class/0.0.1/package
+49 verbose tar unpack /Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz
+50 silly lockFile d97a704a-za-npm-supra-class-0-0-1-package tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package
+51 verbose lock tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package /Users/guilhermsouza/.npm/d97a704a-za-npm-supra-class-0-0-1-package.lock
+52 silly lockFile 3b5f19f2-pm-supra-class-0-0-1-package-tgz tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz
+53 verbose lock tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz /Users/guilhermsouza/.npm/3b5f19f2-pm-supra-class-0-0-1-package-tgz.lock
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry index.js
+57 silly lockFile d97a704a-za-npm-supra-class-0-0-1-package tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package
+58 silly lockFile d97a704a-za-npm-supra-class-0-0-1-package tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package
+59 silly lockFile 3b5f19f2-pm-supra-class-0-0-1-package-tgz tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz
+60 silly lockFile 3b5f19f2-pm-supra-class-0-0-1-package-tgz tar:///Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz
+61 verbose chmod /Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz 644
+62 verbose chown /Users/guilhermsouza/.npm/supra-class/0.0.1/package.tgz [ 501, 20 ]
+63 silly lockFile 3a52ce78- .
+64 silly lockFile 3a52ce78- .
+65 silly publish { name: 'supra-class',
+65 silly publish   version: '0.0.1',
+65 silly publish   description: 'SupraJS Class',
+65 silly publish   main: 'index.js',
+65 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+65 silly publish   keywords: [],
+65 silly publish   author: { name: 'Guilherme', url: 'Coder' },
+65 silly publish   license: 'ISC',
+65 silly publish   readme: 'ERROR: No README data found!',
+65 silly publish   _id: 'supra-class@0.0.1',
+65 silly publish   _from: '.',
+65 silly publish   dist: { shasum: '2b1415cecb7839112401aeed197ccbf8f5c2a570' } }
+66 verbose url raw supra-class
+67 verbose url resolving [ 'https://registry.npmjs.org/', './supra-class' ]
+68 verbose url resolved https://registry.npmjs.org/supra-class
+69 info trying registry request attempt 1 at 18:10:44
+70 http PUT https://registry.npmjs.org/supra-class
+71 http 403 https://registry.npmjs.org/supra-class
+72 error publish Failed PUT 403
+73 error Error: forbidden cannot modify pre-existing version: 0.0.1
+73 error old={"name":"supra-class","version":"0.0.1","description":"SupraJS Class","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":[],"author":{"name":"Guilherme","url":"Coder"},"license":"ISC","_id":"supra-class@0.0.1","_from":".","dist":{"shasum":"2b1415cecb7839112401aeed197ccbf8f5c2a570","tarball":"http://registry.npmjs.org/supra-class/-/supra-class-0.0.1.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"guisouza","email":"gui_souza@me.com"},"maintainers":[{"name":"guisouza","email":"gui_souza@me.com"}]}
+73 error new={"name":"supra-class","version":"0.0.1","description":"SupraJS Class","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":[],"author":{"name":"Guilherme","url":"Coder"},"license":"ISC","readme":"ERROR: No README data found!","_id":"supra-class@0.0.1","_from":".","dist":{"shasum":"2b1415cecb7839112401aeed197ccbf8f5c2a570","tarball":"http://registry.npmjs.org/supra-class/-/supra-class-0.0.1.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"guisouza","email":"gui_souza@me.com"},"maintainers":[{"name":"guisouza","email":"gui_souza@me.com"}]}: supra-class
+73 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+73 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+73 error     at Request.EventEmitter.emit (events.js:98:17)
+73 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+73 error     at Request.EventEmitter.emit (events.js:117:20)
+73 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+73 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+73 error     at _stream_readable.js:920:16
+73 error     at process._tickCallback (node.js:415:13)
+74 error If you need help, you may report this *entire* log,
+74 error including the npm and node versions, at:
+74 error     <http://github.com/npm/npm/issues>
+75 error System Darwin 14.0.0
+76 error command "node" "/usr/local/bin/npm" "publish"
+77 error cwd /Users/guilhermsouza/Supra/node_modules/supra/node_modules/supra-class
+78 error node -v v0.10.26
+79 error npm -v 1.4.3
+80 verbose exit [ 1, true ]
